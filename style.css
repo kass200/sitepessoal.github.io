@@ -1,0 +1,129 @@
+/*ESTILO GERAL*/
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black ;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: blueviolet;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+button:hover{
+    transform: scale(1.05);
+}
+/*estilo do cabecalho*/
+header{
+    padding: 40px 4%;
+
+}
+header > .interface{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+
+}
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/*estilo do topo do site*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 38px;
+}
+.topo-do-site h1 span{
+   color: blueviolet;
+}
+.topo-do-site p{
+    color: white;
+    margin: 40px 0px;
+}
+/*ESTILO DA ABA 2*/
+.portifolio h2{
+    color: white;
+    font-size: 38px;
+    margin-top: 5%;
+}
+.portifolio h2 span{
+    color: blueviolet;
+}
+.portifolio p {
+    color: blueviolet;
+    font-size: 30px;
+    margin-top: 5%;
+}
+/*ESTILO ABA 3*/
+.hobbys h3{
+    color: white;
+    font-size: 38px;
+    margin-top: 3%;
+}
+.hobbys h3 span{
+    color: blueviolet;
+}
+.hobbys p{
+    color: blueviolet;
+    font-size: 30px;
+    margin-top: 5%;
+}
